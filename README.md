@@ -9,5 +9,8 @@ The nodes of the circuit have been labeled topological where each node represent
 
 ".vec" This file contains information about the input vectors (values at the primary inputs). Each line in this file is a input vector. The total number of characters in each line is equal to the number of primary inputs in the corresponding circuit.The characters in the line represents ’0’: logic zero, ’1’: logic one, ’x’: don’t care value. During simulation, the ’x’ is considered as ’ 2’ for this part of the project. The .vec file contains only few input vector of all possible input vectors of the circuit.
 
+## Output
+".response" files contain the results of the simulations 
+
 ## Implementation
 Run the make file with arrguments of input and output 
